@@ -1,11 +1,14 @@
     const div1 = document.createElement("div");
     document.body.appendChild(div1);
+    div1.setAttribute("class", "buttons-sect");
+
     const rockButton = document.createElement("button");
     rockButton.textContent = "Rock";
     const paperButton = document.createElement("button");
     paperButton.textContent = "Paper";
     const scissorsButton = document.createElement("button");
     scissorsButton.textContent = "Scissors";
+    
     div1.appendChild(rockButton);
     div1.appendChild(paperButton);
     div1.appendChild(scissorsButton);
